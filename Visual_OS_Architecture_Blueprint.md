@@ -503,7 +503,7 @@ The five wow moments above require the following technical components:
 
 #### Coding Engine
 
-- **Natural language intent parsing:** Operator describes a policy; the engine generates an entity operation graph for review and deployment
+- **Natural language intent parsing:** Operator describes a policy in natural language; the engine generates an entity operation graph for review and deployment. **Phase 1 scope:** The NL engine maps operator intent to a curated library of policy templates (occupancy rules, access restrictions, schedule-based alerts, event-triggered recording) and fills template parameters from the operator's description. This constrains the output space to validated, tested operation patterns while still providing an NL interface. **Phase 2 scope:** Free-form NL → arbitrary entity operation graph generation, supporting novel policy types beyond the template library.
 - **Entity-aware validation:** The engine understands zone topology, camera coverage, available models, and existing policies
 - **Cross-model queries:** Policies can reference multiple world models with per-model confidence thresholds
 - **Degradation-aware rules:** Policies include fallback behavior for reduced connectivity modes
