@@ -115,7 +115,7 @@ The system is organized into seven layers, with the world model layer at the cen
 
 ### 4.2 Design Inspiration: Claude Code Architecture
 
-The architecture draws direct inspiration from Claude Code's production-grade agentic system, as revealed in the March 2026 source code exposure. Claude Code's architecture demonstrates that a successful agentic platform requires: a central orchestration engine (QueryEngine, 46,000 lines), a permission-gated tool system (50+ tools, 29,000 lines of base definitions), a multi-tier self-healing memory system, multi-agent orchestration with coordinator/worker patterns, and a plugin/extension protocol (MCP) for external integration.
+The architecture draws inspiration from the publicly documented design patterns of Claude Code and similar production-grade agentic systems. These systems demonstrate that a successful agentic platform requires: a central orchestration engine, a permission-gated tool system, a multi-tier memory system, multi-agent orchestration with coordinator/worker patterns, and a plugin/extension protocol (e.g., MCP) for external integration.
 
 Visual OS maps these patterns onto the physical-world domain:
 
