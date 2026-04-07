@@ -458,14 +458,14 @@ This demonstrates that Visual OS doesn't give a single "answer" — it gives str
 
 **Principle demonstrated:** Context API for autonomous agents and external systems.
 
-Scenario: A simulated autonomous agent (representing a delivery robot, a robotic cleaner, or a warehouse AGV) queries the Visual OS context API:
+Scenario: An autonomous agent queries the Visual OS context API. The MVP targets at least one real agent integration (e.g., a robotic vacuum, a delivery robot, or a warehouse AGV querying zone occupancy) alongside a simulated multi-agent scenario for demonstration breadth. Example query:
 
 - **Agent query:** "Is corridor C clear for transit? I am a cleaning robot with dimensions 0.6m x 0.4m."
 - **Visual OS response:** "Corridor C: 1 person detected at coordinates (x, y), moving eastbound at ~1.2 m/s. Estimated clearance time: 8 seconds. Confidence: 87%. Suggested action: WAIT or REROUTE via corridor D (currently empty, confidence: 94%, last confirmed: 3 seconds ago). Coverage note: eastern segment of corridor C has 71% coverage due to camera occlusion by shelving unit."
 
 The response includes not just the answer, but confidence, staleness, alternative routes, and coverage limitations. This demonstrates that Visual OS is not a screen for humans to watch — it is infrastructure that other systems depend on. The context API is the product's primary interface for the autonomous future, and the MVP proves it works.
 
-Even if the initial demo uses a simulated agent, the architectural point is clear to stakeholders: this system is positioned to become essential infrastructure for every autonomous physical operation.
+The combination of a real agent integration (validating product-market fit) and a simulated multi-agent scenario (demonstrating architectural breadth) proves to stakeholders that Visual OS is positioned to become essential infrastructure for every autonomous physical operation.
 
 #### Wow Moment 5: Graceful Degradation in Real Time
 
@@ -561,7 +561,7 @@ Entity runtime + world model with uncertainty + coding engine + context API + hu
 
 ### Phase 2: Intelligence (Months 4–8)
 
-AI-powered scene understanding, NL policy authoring, temporal pattern learning, multi-camera tracking.
+AI-powered scene understanding, free-form NL policy authoring (extending Phase 1's template-based NL to support arbitrary policy generation), temporal pattern learning, multi-camera tracking.
 
 - **Deliverable:** Operators author policies in natural language; system learns normal patterns and flags anomalies
 - **World model:** Adds object tracking, activity classification, pattern baselines
