@@ -4,7 +4,7 @@
 
 **Architecture Blueprint & MVP Roadmap**
 
-CONFIDENTIAL | April 2026 | Version 1.0
+NETWORK OPTIX CONFIDENTIAL | April 2026 | Version 1.0
 
 ---
 
