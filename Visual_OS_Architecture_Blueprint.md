@@ -280,7 +280,28 @@ Four mechanisms ensure the system never confuses belief with fact:
 - **Staleness tracking.** Every fact has an age. "Last confirmed empty: 47 seconds ago." Stale facts decay in confidence. Policies can require freshness: "only allow robot entry if zone confirmed empty within 10 seconds."
 - **Conflicting signals.** When sensors disagree, the model holds both hypotheses and escalates if the conflict exceeds a threshold. "Motion sensor says occupied, camera says empty — possible occlusion. Confidence: 55% occupied."
 
-### 6.4 Tiered World Model Replication
+### 6.4 Sensor Fusion Architecture
+
+The world model depends on fusing observations from heterogeneous sources (cameras, motion sensors, door contacts, badge readers) into a coherent state. Fusion is one of the system's hardest technical challenges and follows a phased approach:
+
+**Phase 1 (MVP): Rule-based fusion with priority weighting**
+
+- Each zone maintains an observation queue from all contributing sensors.
+- Observations are merged using weighted rules: camera detections carry higher weight than motion sensors for occupancy; door contacts are authoritative for entry/exit events.
+- When sources conflict (motion sensor says occupied, camera says empty), the system applies a configurable conflict resolution policy per zone type: safety zones trust the more cautious source; operational zones trust the higher-weight source.
+- Expected accuracy: zone-level occupancy (occupied/empty) correct > 85% of the time in well-covered zones (≥ 2 cameras + supplementary sensors).
+
+**Phase 2: Probabilistic fusion with Bayesian state estimation**
+
+- Replace rule-based fusion with a lightweight Bayesian filter that maintains a probability distribution over zone states.
+- Each sensor observation updates the prior distribution based on learned sensor reliability profiles.
+- Enables principled uncertainty quantification: confidence scores become true posterior probabilities rather than heuristic weights.
+
+**Phase 3+: Learned fusion models**
+
+- Train neural fusion models on deployment-specific data to capture complex sensor correlations (e.g., camera occlusion patterns correlated with time-of-day).
+
+### 6.5 Tiered World Model Replication
 
 | Replica | Content | Purpose |
 |---------|---------|---------|
