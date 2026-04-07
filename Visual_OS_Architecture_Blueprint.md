@@ -21,8 +21,9 @@ NETWORK OPTIX CONFIDENTIAL | April 2026 | Version 1.0
 9. [Security Considerations](#9-security-considerations)
 10. [MVP Definition](#10-mvp-definition)
 11. [Development Roadmap](#11-development-roadmap)
-12. [Competitive Positioning](#12-competitive-positioning)
-13. [Glossary](#appendix-a-glossary)
+12. [Resourcing and Dependencies](#12-resourcing-and-dependencies)
+13. [Competitive Positioning](#13-competitive-positioning)
+14. [Glossary](#appendix-a-glossary)
 
 ---
 
