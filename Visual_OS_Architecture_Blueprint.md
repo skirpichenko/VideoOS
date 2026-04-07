@@ -308,7 +308,16 @@ An operator expresses intent in domain terms. The coding engine translates that 
 > 3. `notification.send(group='security-team', priority='high', context=event)`
 > 4. `timer.start(300, onExpire=alarm.trigger(zone='restricted'))`
 
-### 7.2 Cross-Model Queries
+### 7.2 LLM Dependency and Fallback
+
+The coding engine's NL parsing relies on a hosted LLM (Claude API or equivalent) to interpret operator intent and map it to entity operations.
+
+- **LLM provider:** Claude API (primary), with the option for on-premise LLM inference at the facility tier for customers with data residency requirements.
+- **Accuracy expectations (Phase 1):** Because the NL engine maps to a constrained template library rather than generating arbitrary operation graphs, the expected template-selection accuracy target is > 90% for intents within the supported policy categories. Operators always review the generated operation graph before deployment — the LLM proposes, the human confirms.
+- **Fallback on failure:** When the NL engine cannot confidently map an intent to a template (confidence below threshold), the system falls back to a guided wizard that walks the operator through policy creation step-by-step using structured forms. This ensures operators are never blocked by NL parsing failures.
+- **Cost model:** LLM API calls occur only during policy authoring (not real-time inference), so cost scales with the number of operator sessions, not with camera count or event volume.
+
+### 7.3 Cross-Model Queries
 
 The coding engine's most powerful capability is composing queries across multiple world models:
 
@@ -316,7 +325,7 @@ The coding engine's most powerful capability is composing queries across multipl
 
 This single operator statement queries three models, applies confidence thresholds, and fuses the results into a single decision. The operator didn't need to know about cameras, frame rates, or detection algorithms.
 
-### 7.3 Degradation-Aware Programming
+### 7.4 Degradation-Aware Programming
 
 The coding engine understands the tiered infrastructure and connectivity state. Operators can define behavior across degradation modes:
 
@@ -326,7 +335,7 @@ The coding engine understands the tiered infrastructure and connectivity state. 
 
 The coding engine automatically adapts behavior based on the current connectivity state, running the best available version of each policy.
 
-### 7.4 Permission Model
+### 7.5 Permission Model
 
 Inspired by Claude Code's three-mode permission system, adapted for physical-world consequences:
 
