@@ -605,13 +605,21 @@ Entity runtime + world model with uncertainty + coding engine + context API + hu
 - **World model:** Zones + occupancy + confidence + staleness + coverage maps + multi-model views (security/operational/safety)
 - **Users:** Internal testing, 1–2 pilot customers, investor demo-ready
 
-### Phase 2: Intelligence (Months 4–8)
+### Phase 2a: Intelligence (Months 4–6)
 
-AI-powered scene understanding, free-form NL policy authoring (extending Phase 1's template-based NL to support arbitrary policy generation), temporal pattern learning, multi-camera tracking.
+AI-powered scene understanding, temporal pattern learning, multi-camera tracking. Edge tier hardware deployment and testing.
 
-- **Deliverable:** Operators author policies in natural language; system learns normal patterns and flags anomalies
+- **Deliverable:** System learns normal patterns and flags anomalies; real edge devices running lightweight inference
 - **World model:** Adds object tracking, activity classification, pattern baselines
-- **Infrastructure:** Edge tier deployed; tiered storage with cost optimization
+- **Infrastructure:** Edge tier deployed with real hardware; tiered storage with cost optimization
+- **Users:** 3–5 pilot customers in initial verticals
+
+### Phase 2b: Advanced Authoring + Cloud (Months 6–8)
+
+Free-form NL policy authoring (extending Phase 1's template-based NL to support arbitrary policy generation). Cloud tier standup.
+
+- **Deliverable:** Operators author policies in free-form natural language; cloud archival and foundation model inference available
+- **Infrastructure:** Cloud tier deployed; cross-facility data aggregation pipeline
 - **Users:** 5–10 pilot customers across different verticals
 
 ### Phase 3: Platform (Months 8–14)
@@ -620,7 +628,7 @@ Multi-agent orchestration, integration protocol, context API for autonomous agen
 
 - **Deliverable:** Third-party systems (robots, BMS, access control) consume the context API; zone agents coordinate autonomously
 - **World model:** Adds semantic scene graphs, identity resolution, cross-zone tracking
-- **Infrastructure:** Cloud tier deployed; fleet-wide aggregation for multi-facility customers
+- **Infrastructure:** Fleet-wide aggregation for multi-facility customers
 - **Users:** 20–50 customers; first enterprise accounts with autonomous agent integration
 
 ### Phase 4: Autonomous Governance (Months 14–20)
@@ -638,17 +646,31 @@ Full physics-aware digital twin. Simulation capabilities ("what if we rearrange 
 
 ---
 
-## 12. Competitive Positioning
+## 12. Resourcing and Dependencies
 
-| Dimension | Traditional VMS | AI Video Analytics | Visual OS |
-|-----------|----------------|-------------------|-----------|
-| Core function | Record and playback | Detect and alert | Govern and orchestrate |
-| User | Security guard | Security analyst | Operations manager (semi-technical) |
-| World model | None (human memory) | Per-camera analytics | Multi-model digital twin with uncertainty |
-| Programmability | Static config | Rule templates | Entity-oriented coding engine |
-| Integration | ONVIF/RTSP only | Webhook alerts | Context API for autonomous agents |
-| Offline operation | Local recording only | Varies | Tiered degradation with edge autonomy |
-| Positioning | Cost center (security) | Cost center (security) | Infrastructure (governance platform) |
+A resourcing plan must be developed alongside the technical architecture to validate the MVP timeline. The following areas require definition:
+
+- **Team composition and roles:** Engineering disciplines required (backend, ML/CV, frontend, infrastructure), product and design involvement, and any specialized expertise gaps.
+- **Headcount vs. scope validation:** An honest assessment of whether the available team can deliver the MVP scope within 4 months, with scope reduction as the preferred lever if resourcing falls short.
+- **External dependencies:** Third-party services (LLM APIs, Nx Meta platform components), hardware procurement (facility-tier GPUs), and pilot customer site access.
+- **Infrastructure and operational budget:** Compute, storage, API costs, and development environment provisioning.
+- **Hiring risk:** Identification of any unfilled roles that are critical-path blockers for the MVP timeline.
+
+---
+
+## 13. Competitive Positioning
+
+| Dimension | Traditional VMS (Milestone, Genetec) | AI Video Analytics (BriefCam, Verkada, Rhombus) | Emerging AI-Native (Ambient.ai) | Visual OS |
+|-----------|--------------------------------------|------------------------------------------------|-------------------------------|-----------|
+| Core function | Record and playback | Detect and alert | Contextual threat detection | Govern and orchestrate |
+| User | Security guard | Security analyst | Security analyst | Operations manager (semi-technical) |
+| World model | None (human memory) | Per-camera analytics | Single-model scene understanding | Multi-model digital twin with uncertainty |
+| Programmability | Static config | Rule templates | Pre-built use cases | Entity-oriented coding engine |
+| Integration | ONVIF/RTSP only | Webhook alerts | Limited API | Context API for autonomous agents |
+| Offline operation | Local recording only | Varies | Cloud-dependent | Tiered degradation with edge autonomy |
+| Positioning | Cost center (security) | Cost center (security) | Security platform | Infrastructure (governance platform) |
+
+**Key differentiation to validate:** Ambient.ai is the closest competitor, offering AI-native scene understanding with contextual awareness. Visual OS's differentiation rests on three capabilities Ambient.ai does not offer: multiple purpose-built world models with explicit uncertainty, an entity-oriented coding engine for operator-defined governance, and a Context API designed for autonomous agent consumption. Each "wow moment" should be validated against Ambient.ai's current and roadmap capabilities.
 
 The key competitive moat is the world model layer combined with the coding engine. Competitors would need to rebuild both the entity model (understanding of the video monitoring domain) and the abstraction layer (making it programmable by semi-technical users). The integration protocol creates a network effect: as more autonomous agents consume the context API, the platform becomes harder to replace.
 
