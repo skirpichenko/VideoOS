@@ -113,7 +113,11 @@ The system is organized into seven layers, with the world model layer at the cen
 | 2 | Entity runtime | Manages streams, storage, pipelines, models, connectivity lifecycle |
 | 1 (bottom) | Observers | Cameras, sensors, robots, access systems, schedules, human input |
 
-### 4.2 Design Inspiration: Claude Code Architecture
+### 4.2 Performance Budgets
+
+End-to-end latency targets must be defined for each critical path through the architecture stack: observer → world model update, world model → policy evaluation, policy → action dispatch, and Context API query response. These budgets should be specified as p50/p95/p99 targets and validated through automated benchmarks. Performance budgets are a required deliverable alongside the MVP and will drive key architectural decisions (batch vs. streaming, polling vs. push, GPU sizing).
+
+### 4.3 Design Inspiration: Claude Code Architecture
 
 The architecture draws inspiration from the publicly documented design patterns of Claude Code and similar production-grade agentic systems. These systems demonstrate that a successful agentic platform requires: a central orchestration engine, a permission-gated tool system, a multi-tier memory system, multi-agent orchestration with coordinator/worker patterns, and a plugin/extension protocol (e.g., MCP) for external integration.
 
@@ -314,6 +318,10 @@ The world model depends on fusing observations from heterogeneous sources (camer
 ## 7. Coding Engine
 
 The coding engine is the system's developer experience layer — the component that makes Visual OS programmable by semi-technical operators. It is the direct analog of Claude Code's QueryEngine, but instead of operating on files and functions, it operates on the domain entities defined in Section 5.
+
+> **Target Operator Persona**
+>
+> The "semi-technical operator" is a facilities manager, security director, or operations lead who understands their physical environment deeply but does not write code. They are comfortable with conditional logic ("if X then Y"), understand concepts like zones and schedules, and can interpret confidence percentages. They typically manage policies today through spreadsheets, radio protocols, and static VMS rule screens. They should not need to understand ML model internals, API design, or infrastructure topology to use the coding engine. This persona should be validated with 3–5 real prospective users before finalizing the coding engine UX.
 
 ### 7.1 How It Works
 
