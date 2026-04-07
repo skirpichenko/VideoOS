@@ -38,6 +38,10 @@ Visual OS is that system. It is the governance and oversight operating system fo
 
 This document defines the architecture, entity model, world model layer, coding engine, tiered infrastructure, MVP scope, and four-phase roadmap for Visual OS. The MVP is structured around five "wow moments" that demonstrate capabilities no existing video monitoring system can match: the system models its own uncertainty, operators program reality through domain entities, multiple world models interpret the same scene from different governance perspectives, autonomous agents consume situational awareness through a context API, and the system degrades transparently across infrastructure tiers.
 
+### 1.1 Relationship to Nx Meta
+
+Visual OS builds on top of Network Optix's existing Nx Meta VMS platform rather than replacing it. Nx Meta provides the foundational video infrastructure layer — RTSP ingestion, device management, storage management, and the existing plugin ecosystem — that Visual OS extends with world model intelligence, the coding engine, and the context API. Existing Nx Meta customers gain an upgrade path to Visual OS capabilities without abandoning their current deployment. Components reused from Nx Meta (stream ingestion, device discovery, storage backends) are not rebuilt; the MVP development effort focuses exclusively on the new layers (world model, coding engine, policy engine, context API, and dashboard).
+
 ---
 
 ## 2. Vision & Market Thesis
@@ -406,7 +410,11 @@ The system operates across three infrastructure tiers, each with different chara
 - **Availability:** Requires internet connectivity; latency 50–500ms
 - **Decision authority:** Fleet-wide policies, expensive inference, long-term pattern analysis, compliance reporting
 
-### 8.4 Connectivity and Failover
+### 8.4 Capacity Planning
+
+A capacity planning model must be developed as a required MVP deliverable, covering: compute requirements per camera stream at each tier, GPU sizing for the detection pipeline, storage growth rate and retention cost curves, and projected cost-per-camera-per-month at scale. This model informs hardware recommendations for pilot customers and validates the business case for deployments beyond the MVP's 4–8 camera scope.
+
+### 8.5 Connectivity and Failover
 
 The system uses an explicit degradation graph:
 
