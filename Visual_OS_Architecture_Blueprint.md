@@ -469,7 +469,7 @@ Even if the initial demo uses a simulated agent, the architectural point is clea
 
 #### Wow Moment 5: Graceful Degradation in Real Time
 
-**Principle demonstrated:** Tiered infrastructure with transparent capability management.
+**Principle demonstrated:** Facility-tier resilience with transparent capability management.
 
 Scenario: During the demo, the operator simulates a cloud connectivity loss. Instead of the system failing or showing errors:
 
@@ -477,7 +477,9 @@ Scenario: During the demo, the operator simulates a cloud connectivity loss. Ins
 - **All existing policies continue:** Detection, alerting, and the context API operate normally using the facility-tier world model and local inference.
 - **On reconnection:** Queued events sync to cloud. World model reconciles. The operator sees a brief "sync complete" notification. Nothing was lost.
 
-This demonstrates that Visual OS is designed for the real world, where connectivity is not guaranteed, and that the tiered architecture is not a future feature but a day-one capability.
+This demonstrates that Visual OS is designed for the real world, where connectivity is not guaranteed. In the MVP, facility-tier degradation (surviving cloud outages) is a day-one capability. Full edge-tier autonomy (edge devices operating independently during facility outages) is delivered in Phase 2 with real edge hardware deployment.
+
+> **Scope note:** The MVP demonstrates cloud↔facility degradation with real infrastructure. Edge-tier autonomy is simulated in the MVP demo to illustrate the architectural direction, but production edge deployment requires Phase 2 hardware integration and testing.
 
 ### 10.2 MVP Technical Scope
 
