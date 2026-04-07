@@ -442,7 +442,7 @@ Visual OS has security requirements beyond typical software systems because acti
 - **Face redaction:** Policy-configurable automatic redaction in stored footage. Some models need identity; others don't.
 - **Data residency:** For customers who cannot send video off-premises, the full pipeline runs at the facility tier with local LLM inference. No video bytes leave the building.
 - **Retention policies:** Enforced at the storage tier entity level. Automatic eviction with audit trails.
-- **GDPR/local compliance:** The compliance world model tracks what data was collected, when, why, and when it must be deleted.
+- **GDPR/local compliance:** The compliance world model tracks what data was collected, when, why, and when it must be deleted. A Data Protection Impact Assessment (DPIA) is a required deliverable before any pilot deployment in EU jurisdictions. The system must support Data Subject Access Requests (DSARs) across all storage tiers, including the ability to locate and export or delete all data associated with a specific individual. The tension between immutable audit trails (Section 9.3) and the right to erasure must be resolved through a documented approach — such as cryptographic erasure (destroying encryption keys) while retaining anonymized audit metadata. Cross-border data transfer rules apply when the cloud tier is hosted outside the customer's jurisdiction; the system must support configurable data residency policies per storage tier. Consent mechanisms (signage-based implied consent, explicit opt-in, or legitimate interest) must be configurable per deployment context.
 
 ### 9.3 System Security
 
