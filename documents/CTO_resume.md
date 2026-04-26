@@ -4,15 +4,13 @@ Chief Technology Officer  |  AI/ML Platform Leader
 
 Dubai, UAE  |  skirpichenko@gmail.com  |  linkedin.com/in/skirpichenko
 
-*US work authorization: pursuing O-1 / EB-1 "extraordinary ability" talent visa via self-petition*
-
 **EXECUTIVE SUMMARY**
 
-Technology executive with two decades across AI/ML, software architecture, and product leadership. Currently CTO of an industry-leading scientific software suite serving Apple, Tesla, TSMC, BYD, and Zeiss; concurrently architecting a petabyte-scale predictive-maintenance AI platform with ~200 production models across 800+ asset types. Track record of standing up cross-functional engineering and data-science organizations from zero, translating frontier research into shipping product, and turning ML investment into measurable business outcomes — including 2× revenue growth at one venture, ~30% default-rate reduction at another, and 10× development-effort reduction through AutoML.
+CTO and AI/ML platform leader with 20+ years turning frontier ML into shipping product. Currently CTO of a scientific software suite serving Apple, Tesla, TSMC, BYD, and Zeiss; concurrently architecting a petabyte-scale predictive-maintenance platform powering ~200 production models across 800+ asset types. Repeated track record of building engineering and data-science organizations from zero and converting ML investment into business outcomes — 2× revenue at one venture, ~30% default-rate reduction at another, 10× development-effort reduction through AutoML.
 
 **AREAS OF EXPERTISE**
 
-AI/ML Platform Strategy  •  Production ML & MLOps  •  Data Architecture & Model Governance  •  Real-Time & High-Performance Systems  •  AutoML and LLM/Agent Systems  •  Research-to-Production Execution  •  Engineering Leadership & Team Building  •  Cross-Functional & Customer Stakeholder Management  •  Strategic Technology Roadmaps  •  Cost & Compute Optimization  •  Regulated/Audit-Grade Software Delivery  •  Boardroom Translation of AI P&L
+AI/ML Platform Strategy  •  Production ML & MLOps  •  Data Architecture & Model Governance  •  Real-Time & High-Performance Systems  •  AutoML & LLM/Agent Systems  •  Engineering Leadership & Team Building  •  Strategic Technology Roadmaps  •  Cost & Compute Optimization  •  Regulated / Audit-Grade Software Delivery  •  Executive & Board Communication
 
 **Technologies:** Python, C++, Rust, Go  •  PyTorch, JAX, scikit-learn, XGBoost, MLflow, Optuna  •  Kubernetes, Kubeflow, Docker  •  AWS (SageMaker, Step Functions, Athena, S3), GCP, Azure  •  CUDA, PostgreSQL.
 
@@ -31,12 +29,12 @@ Industry-leading optical-coating software suite trusted by Apple, Tesla, Zeiss, 
 
 * Built proprietary digital-twin system for vacuum deposition chambers, enabling algorithm and product validation prior to physical production and compressing customer feedback loops from weeks to hours.
 
-* Currently shipping an LLM-driven design copilot with MCP-style interface to the physics engine — putting human-in-the-loop AI workflows in front of customers ahead of category competitors.
+* Currently shipping an LLM-driven design copilot that gives customers conversational access to the physics engine — putting human-in-the-loop AI workflows in front of customers ahead of category competitors.
 
 **Uptake Technologies**  —  ML Architect (Contract)  |  *Sep 2025 – Present*  
 *Chicago, USA (Remote)*
 
-Industrial AI leader serving heavy industry, energy, and rail.
+Industrial AI leader serving heavy industry, energy, and rail. Returned engagement to lead a platform-scale automation rebuild.
 
 * Architected an end-to-end automated predictive-maintenance pipeline (ingestion → labeling → feature engineering → training → deployment) reducing model-development effort 10× while preserving 90–95% of hand-crafted-model accuracy.
 
@@ -79,7 +77,7 @@ PropTech platform covering Swiss, French, and Spanish residential markets.
 
 * Built and operated a systematic, model-driven algorithmic-trading platform and developed the quant strategies running on top of it.
 
-* Scaled a personal trading account from ~$4K to ~$1.5M over two years on platform-generated strategies — independent validation of the modeling approach.
+* Strategies generated returns independently validated through live trading across multiple market regimes.
 
 **Earlier career (1997 – 2015):** Lead Data Scientist at TopRater (B2C review analytics & sentiment); Project Manager / co-founder at Lexatest, delivering DO-178B-compliant software for Fortune 500 clients and hosting FAA quality audits; Software Developer at Parascript (handwriting recognition); Software Engineer at Intel (automated test systems).
 
@@ -89,10 +87,12 @@ PropTech platform covering Swiss, French, and Spanish residential markets.
 
 **HONORS & RECOGNITION**
 
+* Authored a production CUDA kernel achieving 25% throughput gain over reference implementations through register-level optimization and algorithmic restructuring — applied to compute-bound cryptographic workloads.
+
 * Kaggle Competition Master.
 
 * Two-time winner, Best Algorithmic / HFT Trading — Moscow Exchange annual competition.
 
-* Publications in Q1 journals on computational methods for optical coatings (2024–2025).
+* 3 peer-reviewed publications in Q1 journals on computational methods for optical coatings (2024–2025).
 
-* Custom CUDA-optimized cryptocurrency-mining kernel achieving 25% speedup over competing implementations through GPU and algorithmic optimization.
+*US work authorization: pursuing O-1 / EB-1 "extraordinary ability" talent visa via self-petition.*
