@@ -39,9 +39,9 @@ Industry-leading optical-coating software suite trusted by Apple, Tesla, Zeiss, 
 
 Industrial AI leader serving heavy industry, energy, and rail. Returned engagement to lead a platform-scale automation rebuild.
 
-* Architected an end-to-end automated predictive-maintenance pipeline (ingestion → labeling → feature engineering → training → deployment) reducing model-development effort 10× while preserving 90–95% of hand-crafted-model accuracy.
+* Designed an end-to-end automated predictive-maintenance pipeline (ingestion → labeling → feature engineering → training → deployment) reducing model-development effort 10× while preserving 90–95% of hand-crafted-model accuracy.
 
-* Platform powers ~200 production models across 800+ asset types and 58,000+ failure modes at petabyte scale, supporting hundreds of thousands of connected industrial assets — with platform-level versioning, monitoring, and retraining built in.
+* Developing hybrid systems that combine rules, statistics, and machine learning to turn messy, conflicting sensor data into reliable real-time decisions — at the scale of hundreds of thousands of industrial assets.
 
 **TigerGraph**  —  Senior ML Engineer  |  *Dec 2021 – Jan 2023*  
 *USA (Remote)*
