@@ -12,7 +12,7 @@ CTO and platform leader with 20+ years turning frontier AI/ML research into prod
 
 AI/ML Platform Strategy  •  Applied LLMs & Generative AI  •  Graph ML & Hybrid Rule-Based Systems  •  Production ML & MLOps  •  Cloud Architecture & Multi-Cloud Kubernetes  •  Cross-Platform & Edge Systems  •  GPU / CUDA Optimization  •  High-Performance & Low-Latency Systems  •  Engineering Leadership & Team Building  •  Executive & Board Communication
 
-**Technologies:** Python, C++, Rust, Go  •  Qt (cross-platform desktop)  •  PyTorch, JAX, scipy, scikit-learn, XGBoost, MLflow  •  LLM stack (RAG, agents, tool-use)  •  Graph ML (AutoGL, TigerGraph)  •  Kubernetes, Kubeflow, Docker  •  AWS, GCP, Azure  •  PostgreSQL  •  CUDA  •  Linux / Windows / macOS / ARM
+**Technologies:** Python, C++, Rust, Go  •  Qt (cross-platform desktop)  •  PyTorch, JAX, SciPy, scikit-learn, XGBoost, MLflow  •  LLM stack (RAG, agents, tool-use)  •  Graph ML (AutoGL, TigerGraph)  •  Kubernetes, Kubeflow, Docker  •  AWS, GCP, Azure  •  PostgreSQL  •  CUDA  •  Linux / Windows / macOS / ARM
 
 **PROFESSIONAL EXPERIENCE**
 
@@ -27,8 +27,8 @@ Industry-leading optical-coating software suite trusted by Apple, Tesla, Zeiss, 
 
 * Modernized four products and launched a new fifth across three parallel streams — with zero churn:
   * *Platform Modernization:* Migrated the legacy Win32 application stack to Qt-based cross-platform architecture (Windows / Linux / macOS) — preserving familiar workflows while addressing long-standing customer pain points.
-  * *Algorithm Reinvention:* Reverse-engineered and reinvented undocumented core scientific algorithms, optimizing the entire computational suite to exceed the speed and accuracy benchmarks of the legacy system.
-  * *Edge & Hardware Integration:* Delivered a new in-situ monitoring product utilizing Raspberry Pi embedded controllers for closed-loop, real-time control of deposition hardware on live manufacturing lines.
+  * *Algorithm Reinvention:* Reverse-engineered and reinvented core scientific algorithms (many undocumented), optimizing the entire computational suite to exceed the speed and accuracy benchmarks of the legacy system.
+  * *Edge & Hardware Integration:* Delivered a new monitoring product built on Raspberry Pi embedded controllers for closed-loop, real-time control of deposition hardware on live manufacturing lines.
 
 * Driving continuous innovation beyond the rebuild — extending the platform into capabilities ahead of category competitors:
   * *Digital Twin Systems:* Built a physics-aware simulation of the manufacturing process — enabling closed-loop, automated design optimization in simulation, replacing weeks-long physical iteration cycles.
@@ -78,28 +78,28 @@ PropTech platform covering Swiss, French, and Spanish residential markets.
 
 European consumer-finance group operating across Poland and Eastern European markets.
 
-* Built ML-based credit risk and lifetime-value models for non-prime borrowers — using alternative data (telecom, web, transactions etc.) to score thin-file customers traditional scorecards couldn't underwrite. Reduced default rates ~30%.
+* Built ML-based credit risk and lifetime-value models for non-prime borrowers — using alternative data (telecom, web, transactions) to score thin-file customers traditional scorecards couldn't underwrite. Reduced default rates ~30%.
 
 * Designed a distributed scoring architecture — partial models on each vendor's premises, fused centrally into unified credit decisions.
 
 **Longtech Investment**  —  Founder / Director  |  *May 2007 – Jun 2013*  
-*Moscow, Russia*
+*Moscow*
 
 * Founded and operated a systematic, model-driven algorithmic-trading firm — built the platform end-to-end and developed the quant strategies running on it. Two-time winner of the Moscow Exchange algorithmic/HFT competition; strategies delivered ~70% compound annual return over six years of live trading across multiple market regimes.
 
-**Earlier career (1997 – 2015):** Lead Data Scientist at TopRater (B2C review analytics & NLP); Project Manager / co-founder at Lexatest, delivering DO-178B-compliant safety-critical software for Fortune 500 aerospace clients and hosting FAA quality audits; Software Developer at Parascript (handwriting & pattern recognition — classical CV/perception domain); Software Engineer at Intel (automated test infrastructure for software products).
+**Earlier career (1997 – 2015):** Lead Data Scientist at TopRater (B2C review analytics & NLP); Project Manager / co-founder at Lexatest, delivering DO-178B-compliant safety-critical software for Fortune 500 aerospace clients and hosting FAA quality audits; Software Developer at Parascript (handwriting & pattern recognition — classical CV/perception domain); Software Engineer at Intel (hardware-optimized libraries).
 
 **EDUCATION**
 
-**Lomonosov Moscow State University (MSU)** — M.S., Applied Mathematics  |  1995 – 2001
+**Lomonosov Moscow State University (MSU)** — M.S., Applied Mathematics (with thesis)  |  1995 – 2001
 
 **HONORS & RECOGNITION**
+
+* CUDA kernel for cryptographic workloads, 25% faster than the best public implementations.
 
 * Kaggle Competition Master.
 
 * Two-time winner, Best Algorithmic / HFT Trading — Moscow Exchange annual competition.
-
-* CUDA kernel for cryptographic workloads, 25% faster than the best public implementations.
 
 * 3 peer-reviewed publications in Q1 journals on computational methods for optical coatings (2024–2025).
 
