@@ -46,18 +46,16 @@ Industrial AI leader serving heavy industry, energy, and rail. Returned engageme
 **TigerGraph**  —  Senior ML Engineer  |  *Dec 2021 – Jan 2023*  
 *USA (Remote)*
 
-Real-time graph database powering enterprise fraud, supply-chain, and entity-resolution workloads.
+Real-time graph database for enterprise fraud, supply-chain, and entity-resolution — flagship deployment: China Telecom fraud detection at millions of nodes, sub-100ms latency.
 
-* Contributed core platform components behind the company's flagship deployment: real-time fraud detection for China Telecom across millions of nodes at sub-100ms latency.
-
-* Architected a cloud-native AutoML service for graph applications, unifying Kubeflow and AutoGL into a single platform deployable across AWS, GCP, Azure, and on-prem Kubernetes — eliminating per-cloud rework for enterprise customers.
+* Architected a cloud-native AutoML service for graph applications (node classification, link prediction), unifying Kubeflow and AutoGL into a single platform deployable across AWS, GCP, Azure, and on-prem Kubernetes — eliminating per-cloud rework for enterprise customers.
 
 **Stealth Startup**  —  Founder  |  *Oct 2019 – Nov 2021*  
 *Remote*
 
-* Founded a startup applying GANs to financial-market microstructure — a generator placing orders on both sides of the book against a discriminator trained to distinguish real from synthetic flow, generating unlimited realistic market data for model training.
+* Founded an applied-AI startup leveraging GANs for financial-market microstructure modeling. Designed a generator/discriminator architecture to synthesize unlimited, highly realistic order-book data for algorithmic training.
 
-* Built the platform with a small founding team: a low-latency ingestion and replay system that doubled as the simulator (C++, Lua, Numba), and the generative training stack on top (PyTorch).
+* Led a small engineering team to build the core platform: a low-latency ingestion and simulation engine (C++, Lua, Numba) integrated with a PyTorch-based generative training stack.
 
 **RealAdvisor**  —  Head of Data Science  |  *Nov 2017 – Sep 2019*  
 *Switzerland*
@@ -80,7 +78,7 @@ European consumer-finance group operating across Poland and Eastern European mar
 
 * Built ML-based credit risk and lifetime-value models for non-prime borrowers — using alternative data (telecom, web, transactions) to score thin-file customers traditional scorecards couldn't underwrite. Reduced default rates ~30%.
 
-* Designed a distributed scoring architecture — partial models on each vendor's premises, fused centrally into unified credit decisions.
+* Designed a distributed federated scoring architecture that executed partial models on vendor premises before fusing them centrally into unified credit decisions.
 
 **Longtech Investment**  —  Founder / Director  |  *May 2007 – Jun 2013*  
 *Moscow*
