@@ -1,18 +1,18 @@
 **SERGEY KIRPICHENKO**
 
-Chief Technology Officer  |  Real-Time Systems & AI/ML Platform Leader
+Chief Technology Officer  |  AI/ML Platform & Cloud-to-Edge Systems Leader
 
 Dubai, UAE  |  skirpichenko@gmail.com  |  linkedin.com/in/skirpichenko
 
 **EXECUTIVE SUMMARY**
 
-CTO and platform leader with 20+ years building real-time and hardware-adjacent software at scale, and a track record of standing up engineering organizations from zero. Currently CTO of a scientific software suite serving Apple, Tesla, TSMC, BYD, and Zeiss — shipping millisecond-latency real-time control loops, GPU-accelerated optimization, and Qt-based cross-platform software running on everything from workstations to embedded ARM controllers. Career rooted in low-level systems work (Intel test infrastructure, Parascript pattern recognition, custom CUDA kernels, DO-178B-compliant safety-critical software) and now bridging that depth with modern AI/ML platform leadership across distributed, cross-cultural teams. Repeated track record of converting research into shipping product — 2× revenue at one venture, ~30% default-rate reduction at another, 10× development-effort reduction through AutoML.
+CTO and platform leader with 20+ years turning frontier AI/ML research into production software at scale, with a track record of standing up engineering organizations from zero. Currently CTO of a scientific software suite serving Apple, Tesla, TSMC, BYD, and Zeiss — shipping Qt-based cross-platform software, GPU-accelerated optimization, and digital-twin systems running from workstations to embedded ARM controllers. Concurrently architecting a petabyte-scale ML platform on AWS, with prior multi-cloud Kubernetes platform work spanning AWS, GCP, Azure, and on-prem deployments. Career rooted in low-level systems work (Intel hardware-optimized libraries, DO-178B-compliant safety-critical software, microsecond-latency HFT systems, custom CUDA kernels) and now bridging that depth with modern AI/ML platform leadership across distributed, cross-cultural teams. Repeated track record of turning ML investment into measurable business outcomes — 2× revenue at one venture, ~30% default-rate reduction at another, 10× development-effort reduction through AutoML.
 
 **AREAS OF EXPERTISE**
 
-Real-Time & High-Performance Systems  •  GPU / CUDA Optimization  •  Cross-Platform & Embedded Software  •  Computer Vision & Perception  •  AI/ML Platform Strategy  •  Production ML & MLOps  •  Engineering Leadership & Team Building  •  Cost & Compute Optimization  •  Regulated / Audit-Grade Software Delivery  •  Executive & Board Communication
+AI/ML Platform Strategy  •  Applied LLMs & Generative AI  •  Graph ML & Hybrid Rule-Based Systems  •  Production ML & MLOps  •  Cloud Architecture & Multi-Cloud Kubernetes  •  Cross-Platform & Edge Systems  •  GPU / CUDA Optimization  •  High-Performance & Low-Latency Systems  •  Engineering Leadership & Team Building  •  Executive & Board Communication
 
-**Technologies:** Python, C++, Rust, Go  •  Qt / PySide (cross-platform desktop & embedded UI)  •  CUDA (register-level kernel optimization)  •  PyTorch, JAX, scikit-learn, XGBoost, MLflow, Optuna  •  Kubernetes, Kubeflow, Docker  •  AWS (SageMaker, Step Functions, Athena, S3), GCP, Azure  •  PostgreSQL  •  Linux / Windows / macOS / ARM (incl. Raspberry Pi)
+**Technologies:** Python, C++, Rust, Go  •  Qt (cross-platform desktop)  •  PyTorch, JAX, scipy, scikit-learn, XGBoost, MLflow  •  LLM stack (RAG, agents, tool-use)  •  Graph ML (AutoGL, TigerGraph)  •  Kubernetes, Kubeflow, Docker  •  AWS, GCP, Azure  •  PostgreSQL  •  CUDA  •  Linux / Windows / macOS / ARM
 
 **PROFESSIONAL EXPERIENCE**
 
@@ -21,17 +21,18 @@ Real-Time & High-Performance Systems  •  GPU / CUDA Optimization  •  Cross-P
 
 Industry-leading optical-coating software suite trusted by Apple, Tesla, Zeiss, TSMC, BYD, and tier-1 aerospace, semiconductor, and automotive customers worldwide.
 
-* Took ownership as CTO and led the full ground-up rebuild of all five products from a zero codebase — defining technology strategy, stack, architecture, and product roadmap end-to-end while preserving the entire tier-1 customer base through the transition.
+* Joined as CTO with a mandate to rebuild the company's full product line from the ground up — owning technology strategy, architecture, roadmap, and execution end-to-end while protecting the existing customer base through the transition.
 
-* Shipped 5 production products including OptiReOpt (millisecond-latency optimization API for real-time deposition control) and OptiMonitor (real-time in-situ deposition monitoring) — moving the company from desktop tooling into real-time industrial sensing software running directly against deposition hardware.
+* Built and now lead a cross-functional team of 20+ (engineering, QA, optical scientists) — personally driving hiring strategy and technical interviews, and establishing advisory relationships with academic researchers from Lomonosov MSU, Rochester Institute of Technology, and Max Planck Institute.
 
-* Shipped a Qt-based cross-platform application stack (Windows / Linux / macOS) paired with a Raspberry Pi embedded controller running closed-loop, real-time control of vacuum-deposition hardware — production software-meets-hardware integration on tier-1 customer manufacturing lines.
+* Shipped a complete, ground-up rebuild of the entire production software suite across three parallel streams, successfully delivering the modernized architecture to our tier-1 enterprise customers without a single churn:
+  * *Platform Modernization:* Migrated the legacy Win32 application stack to a modern, Qt-based cross-platform architecture (Windows / Linux / macOS).
+  * *Edge & Hardware Integration:* Delivered a new in-situ monitoring product utilizing Raspberry Pi embedded controllers for closed-loop, real-time control of deposition hardware on live manufacturing lines.
+  * *Algorithm Reinvention:* Reverse-engineered and reinvented undocumented core scientific algorithms, optimizing the entire computational suite to exceed the speed and accuracy benchmarks of the legacy system.
 
-* Built proprietary digital-twin system for vacuum deposition chambers, simulating full physical processes for algorithm and product validation prior to physical production — compressing customer feedback loops from weeks to hours.
-
-* Built and now lead a cross-functional team of 10+ (engineering, QA, optical scientists) supported by academic advisors from Lomonosov MSU, Rochester Institute of Technology, and Max Planck Institute — turning a niche scientific tool vendor into a modern software organization.
-
-* Currently shipping an LLM-driven design copilot that gives customers conversational access to the physics engine — putting human-in-the-loop AI workflows in front of customers ahead of category competitors.
+* Driving continuous innovation beyond the rebuild — extending the platform into capabilities ahead of category competitors:
+  * *Digital Twin Systems:* Built a digital-twin simulation of the manufacturing process, opening the path to closed-loop, automated design optimization — iterating on manufacturable designs at near-zero cost in simulation, where each physical manufacturing cycle previously cost weeks of customer time.
+  * *AI-Native Workflows:* Piloting an LLM-driven design copilot that gives customers conversational access to the physics engine — bringing human-in-the-loop AI workflows to a category that hasn't seen them.
 
 **Uptake Technologies**  —  ML Architect (Contract)  |  *Sep 2025 – Present*  
 *Chicago, USA (Remote)*
