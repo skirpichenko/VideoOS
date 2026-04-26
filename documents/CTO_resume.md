@@ -55,9 +55,9 @@ Real-time graph database powering enterprise fraud, supply-chain, and entity-res
 **Stealth Startup**  —  Founder  |  *Oct 2019 – Nov 2021*  
 *Remote*
 
-* Founded and led an early-stage venture applying generative ML to financial-market data — building forecasting and signal-generation models against price, order-book, and alternative data well ahead of the broader market's adoption of generative methods in finance.
+* Founded a startup applying GANs to financial-market microstructure — a generator placing orders on both sides of the book against a discriminator trained to distinguish real from synthetic flow, generating unlimited realistic market data for model training.
 
-* Built the full stack end-to-end: data ingestion, model training, backtesting infrastructure, and live execution. Wound the company down after concluding the risk-adjusted opportunity didn't justify continued capital commitment.
+* Built the platform with a small founding team: a low-latency ingestion and replay system that doubled as the simulator (C++, Lua, Numba), and the generative training stack on top (PyTorch).
 
 **RealAdvisor**  —  Head of Data Science  |  *Nov 2017 – Sep 2019*  
 *Switzerland*
@@ -66,7 +66,7 @@ PropTech platform covering Swiss, French, and Spanish residential markets.
 
 * Founded and led the data-science function from scratch; built and managed a 3-person DS team with engineering leverage over a 10-person development team.
 
-* Designed and shipped the platform's two core ML products — XGBoost-based property appraisal and KNN-based comparable analysis at sub-30ms latency — which became the company's primary commercial value proposition; ML directly drove ~2× revenue growth during tenure.
+* Designed and shipped the platform's two core ML products — automated property appraisal and comparable-listings analysis at sub-30ms latency — which became the company's primary commercial value proposition; ML directly drove ~2× revenue growth during tenure.
 
 **Uptake Technologies**  —  Senior Data Scientist  |  *Mar 2016 – Nov 2017*  
 *Chicago, USA*
@@ -74,14 +74,18 @@ PropTech platform covering Swiss, French, and Spanish residential markets.
 * Built and shipped predictive-maintenance models for fleet and wind-energy customers; developed reusable frameworks for noisy IIoT sensor data and edge-deployment via Portable Format for Analytics (PFA) for hardware-agnostic serving on resource-constrained devices.
 
 **Finstar Financial Group**  —  Senior Data Scientist (concurrent, part-time)  |  *Mar 2016 – Nov 2017*  
-*Remote*
+*Europe (Remote)*
 
-* Replaced traditional credit scorecards with ML-based risk and lifetime-value models, reducing default rates ~30%; deployed via REST API integrating in-house scoring with external data providers.
+European consumer-finance group operating across Poland and Eastern European markets.
+
+* Built ML-based credit risk and lifetime-value models for non-prime borrowers — using alternative data (telecom, web, transactions etc.) to score thin-file customers traditional scorecards couldn't underwrite. Reduced default rates ~30%.
+
+* Designed a distributed scoring architecture — partial models on each vendor's premises, fused centrally into unified credit decisions.
 
 **Longtech Investment**  —  Founder / Director  |  *May 2007 – Jun 2013*  
 *Moscow, Russia*
 
-* Founded and operated a systematic, model-driven algorithmic-trading firm — built the full trading platform end-to-end and developed the quant strategies running on it. Strategies generated multi-year positive returns validated through live trading across multiple market regimes; two-time winner of the Moscow Exchange algorithmic / HFT competition during this period.
+* Founded and operated a systematic, model-driven algorithmic-trading firm — built the platform end-to-end and developed the quant strategies running on it. Two-time winner of the Moscow Exchange algorithmic/HFT competition; strategies delivered ~70% compound annual return over six years of live trading across multiple market regimes.
 
 **Earlier career (1997 – 2015):** Lead Data Scientist at TopRater (B2C review analytics & NLP); Project Manager / co-founder at Lexatest, delivering DO-178B-compliant safety-critical software for Fortune 500 aerospace clients and hosting FAA quality audits; Software Developer at Parascript (handwriting & pattern recognition — classical CV/perception domain); Software Engineer at Intel (automated test infrastructure for software products).
 
@@ -91,11 +95,11 @@ PropTech platform covering Swiss, French, and Spanish residential markets.
 
 **HONORS & RECOGNITION**
 
-* Authored a production CUDA kernel achieving 25% throughput gain over reference implementations through register-level optimization and algorithmic restructuring — the GPU-performance discipline that translates directly to real-time perception and video pipelines.
-
 * Kaggle Competition Master.
 
 * Two-time winner, Best Algorithmic / HFT Trading — Moscow Exchange annual competition.
+
+* CUDA kernel for cryptographic workloads, 25% faster than the best public implementations.
 
 * 3 peer-reviewed publications in Q1 journals on computational methods for optical coatings (2024–2025).
 
