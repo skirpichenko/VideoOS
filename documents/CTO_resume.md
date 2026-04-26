@@ -21,18 +21,18 @@ AI/ML Platform Strategy  •  Applied LLMs & Generative AI  •  Graph ML & Hybr
 
 Industry-leading optical-coating software suite trusted by Apple, Tesla, Zeiss, TSMC, BYD, and tier-1 aerospace, semiconductor, and automotive customers worldwide.
 
-* Joined as CTO with a mandate to rebuild the company's full product line from the ground up — owning technology strategy, architecture, roadmap, and execution end-to-end while protecting the existing customer base through the transition.
+* Joined as CTO with a mandate to rebuild the entire product portfolio from the ground up—owning technology strategy, architecture, roadmap, and execution end-to-end while retaining the existing customer base through the transition.
 
 * Built and now lead a cross-functional team of 20+ (engineering, QA, optical scientists) — personally driving hiring strategy and technical interviews, and establishing advisory relationships with academic researchers from Lomonosov MSU, Rochester Institute of Technology, and Max Planck Institute.
 
-* Shipped a complete, ground-up rebuild of the entire production software suite across three parallel streams, successfully delivering the modernized architecture to our tier-1 enterprise customers without a single churn:
-  * *Platform Modernization:* Migrated the legacy Win32 application stack to a modern, Qt-based cross-platform architecture (Windows / Linux / macOS).
-  * *Edge & Hardware Integration:* Delivered a new in-situ monitoring product utilizing Raspberry Pi embedded controllers for closed-loop, real-time control of deposition hardware on live manufacturing lines.
+* Modernized four products and launched a new fifth across three parallel streams — with zero churn:
+  * *Platform Modernization:* Migrated the legacy Win32 application stack to Qt-based cross-platform architecture (Windows / Linux / macOS) — preserving familiar workflows while addressing long-standing customer pain points.
   * *Algorithm Reinvention:* Reverse-engineered and reinvented undocumented core scientific algorithms, optimizing the entire computational suite to exceed the speed and accuracy benchmarks of the legacy system.
+  * *Edge & Hardware Integration:* Delivered a new in-situ monitoring product utilizing Raspberry Pi embedded controllers for closed-loop, real-time control of deposition hardware on live manufacturing lines.
 
 * Driving continuous innovation beyond the rebuild — extending the platform into capabilities ahead of category competitors:
-  * *Digital Twin Systems:* Built a digital-twin simulation of the manufacturing process, opening the path to closed-loop, automated design optimization — iterating on manufacturable designs at near-zero cost in simulation, where each physical manufacturing cycle previously cost weeks of customer time.
-  * *AI-Native Workflows:* Piloting an LLM-driven design copilot that gives customers conversational access to the physics engine — bringing human-in-the-loop AI workflows to a category that hasn't seen them.
+  * *Digital Twin Systems:* Built a physics-aware simulation of the manufacturing process — enabling closed-loop, automated design optimization in simulation, replacing weeks-long physical iteration cycles.
+  * *AI-Native Workflows:* Piloting an LLM-driven system that translates operator intent into validated operations across the full physics engine — design, optimization, and inverse problems handled through natural language.
 
 **Uptake Technologies**  —  ML Architect (Contract)  |  *Sep 2025 – Present*  
 *Chicago, USA (Remote)*
