@@ -6,7 +6,7 @@ Dubai, UAE  |  skirpichenko@gmail.com  |  linkedin.com/in/skirpichenko
 
 **EXECUTIVE SUMMARY**
 
-CTO and platform leader with 20+ years turning frontier AI/ML research into production software at scale, with a track record of standing up engineering organizations from zero. Currently CTO of a scientific software suite serving Apple, Tesla, TSMC, BYD, and Zeiss — shipping Qt-based cross-platform software, GPU-accelerated optimization, and digital-twin systems running from workstations to embedded ARM controllers. Concurrently architecting a petabyte-scale ML platform on AWS, with prior multi-cloud Kubernetes platform work spanning AWS, GCP, Azure, and on-prem deployments. Career rooted in low-level systems work (Intel hardware-optimized libraries, DO-178B-compliant safety-critical software, microsecond-latency HFT systems, custom CUDA kernels) and now bridging that depth with modern AI/ML platform leadership across distributed, cross-cultural teams. Repeated track record of turning ML investment into measurable business outcomes — 2× revenue at one venture, ~30% default-rate reduction at another, 10× development-effort reduction through AutoML.
+CTO and platform leader with 20+ years of experience turning frontier AI/ML research into production software at scale, with a track record of standing up engineering organizations from zero. Currently CTO of a scientific software suite serving Apple, Tesla, TSMC, BYD, and Zeiss — shipping Qt-based cross-platform software, GPU-accelerated optimization, and digital-twin systems running from workstations to embedded ARM controllers. Concurrently architecting a petabyte-scale ML platform on AWS, with prior multi-cloud Kubernetes platform work spanning AWS, GCP, Azure, and on-prem deployments. Career rooted in low-level systems work (Intel hardware-optimized libraries, DO-178B-compliant safety-critical software, microsecond-latency HFT systems, custom CUDA kernels) and now bridging that depth with modern AI/ML platform leadership across distributed, cross-cultural teams. Consistent track record of turning ML investment into measurable business outcomes — 2× revenue at one venture, ~30% default-rate reduction at another, 10× development-effort reduction through AutoML.
 
 **AREAS OF EXPERTISE**
 
@@ -21,7 +21,7 @@ AI/ML Platform Strategy  •  Applied LLMs & Generative AI  •  Graph ML & Hybr
 
 Industry-leading optical-coating software suite trusted by Apple, Tesla, Zeiss, TSMC, BYD, and tier-1 aerospace, semiconductor, and automotive customers worldwide.
 
-* Joined as CTO with a mandate to rebuild the entire product portfolio from the ground up—owning technology strategy, architecture, roadmap, and execution end-to-end while retaining the existing customer base through the transition.
+* Joined as CTO with a mandate to rebuild the entire product portfolio from the ground up — owning technology strategy, architecture, roadmap, and execution end-to-end while retaining the existing customer base through the transition.
 
 * Built and now lead a cross-functional team of 20+ (engineering, QA, optical scientists) — personally driving hiring strategy and technical interviews, and establishing advisory relationships with academic researchers from Lomonosov MSU, Rochester Institute of Technology, and Max Planck Institute.
 
@@ -39,9 +39,9 @@ Industry-leading optical-coating software suite trusted by Apple, Tesla, Zeiss, 
 
 Industrial AI leader serving heavy industry, energy, and rail. Returned engagement to lead a platform-scale automation rebuild.
 
-* Designed an end-to-end automated predictive-maintenance pipeline (ingestion → labeling → feature engineering → training → deployment) reducing model-development effort 10× while preserving 90–95% of hand-crafted-model accuracy.
+* Designed an end-to-end automated predictive-maintenance pipeline (ingestion → labeling → feature engineering → training → deployment) — reducing model-development effort 10× while preserving 90–95% of hand-crafted-model accuracy.
 
-* Developing hybrid systems that combine rules, statistics, and machine learning to turn messy, conflicting sensor data into reliable real-time decisions — at the scale of hundreds of thousands of industrial assets.
+* Developing hybrid systems that combine rules, statistics, and machine learning to turn messy, conflicting sensor data into reliable real-time decisions at a scale of hundreds of thousands of industrial assets.
 
 **TigerGraph**  —  Senior ML Engineer  |  *Dec 2021 – Jan 2023*  
 *USA (Remote)*
@@ -76,7 +76,7 @@ PropTech platform covering Swiss, French, and Spanish residential markets.
 
 European consumer-finance group operating across Poland and Eastern European markets.
 
-* Built ML-based credit risk and lifetime-value models for non-prime borrowers — using alternative data (telecom, web, transactions) to score thin-file customers traditional scorecards couldn't underwrite. Reduced default rates ~30%.
+* Built ML-based credit risk and lifetime-value models for non-prime borrowers — using alternative data (telecom, web, transactions) to score thin-file customers that traditional scorecards could not underwrite. Reduced default rates ~30%.
 
 * Designed a distributed federated scoring architecture that executed partial models on vendor premises before fusing them centrally into unified credit decisions.
 
