@@ -27,7 +27,7 @@ Industry-leading optical-coating software suite trusted by Apple, Tesla, Zeiss, 
 
 * Modernized four products and launched a new fifth across three parallel streams — with zero churn:
   * *Platform Modernization:* Migrated the legacy Win32 application stack to Qt-based cross-platform architecture (Windows / Linux / macOS) — preserving familiar workflows while addressing long-standing customer pain points.
-  * *Algorithm Reinvention:* Reverse-engineered and reinvented core scientific algorithms (many undocumented), optimizing the entire computational suite to exceed the speed and accuracy benchmarks of the legacy system.
+  * *Algorithm Reinvention:* Reimplemented core scientific algorithms (many undocumented), optimizing the entire computational suite to exceed the speed and accuracy benchmarks of the legacy system.
   * *Edge & Hardware Integration:* Delivered a new monitoring product built on Raspberry Pi embedded controllers for closed-loop, real-time control of deposition hardware on live manufacturing lines.
 
 * Driving continuous innovation beyond the rebuild — extending the platform into capabilities ahead of category competitors:
