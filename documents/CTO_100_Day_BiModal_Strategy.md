@@ -53,7 +53,9 @@ The AI-native shift moved the bottleneck from writing code to judgment, decompos
 
 - **Structure earned, not announced.** As the work shifts toward defining, curating, reviewing, and judging, team boundaries and roles need to catch up. I'd open the question, set the principles, and decide with the team — not announce a reorg from above.
 
-> **KPI candidates:** tooling coherence, time-to-evaluate new tools, knowledge codification rate, role-shift indicators.
+> **KPI candidates:** tooling coherence, knowledge codification rate, onboarding velocity, leverage ratio.
+
+---
 
 ## The Innovation Engine — Architecting the AI-native future
 
