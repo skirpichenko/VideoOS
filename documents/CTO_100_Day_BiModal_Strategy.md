@@ -53,7 +53,7 @@ The AI-native shift moved the bottleneck from writing code to judgment, decompos
 
 - **Structure earned, not announced.** As the work shifts toward defining, curating, reviewing, and judging, team boundaries and roles need to catch up. I'd open the question, set the principles, and decide with the team — not announce a reorg from above.
 
-> **KPI candidates:** tooling coherence, knowledge codification rate, onboarding velocity, leverage ratio.
+> **KPI candidates:** tooling coherence, knowledge codification rate, onboarding velocity, cross-team practice adoption.
 
 ---
 
@@ -63,7 +63,7 @@ If the Efficiency Engine strengthens what Network Optix is, the Innovation Engin
 
 Nx EVOS already positions Network Optix as an operating system for video — with a Rules Engine, AI Manager, and a rich developer ecosystem. The next step is architectural: moving from event-driven rules and developer-built plugins to a system where operators program reality in natural language and autonomous agents consume situational awareness directly. Just as Datadog provides observability for the cloud, this layer provides governance for robotic warehouses, self-driving fleets, and AI-managed retail.
 
-This next layer of Nx EVOS rests on three architectural commitments:
+This next layer of Nx EVOS rests on four architectural commitments:
 
 - **A world model at the center, not cameras.** The central data structure is a continuously updated model of physical reality — with confidence, staleness, and source attribution as first-class citizens. Multiple purpose-built models (security, operational, safety, compliance) interpret the same scene from different governance perspectives.
 
@@ -76,3 +76,15 @@ This next layer of Nx EVOS rests on three architectural commitments:
 The roadmap unfolds in phases — from a Foundation MVP that proves the architecture, through expanding intelligence, platform breadth, and autonomous governance, toward a long-horizon Digital Twin. Each phase delivers concrete capabilities no current video monitoring system can match.
 
 > The full architecture, MVP definition, and roadmap are in the **[Visual OS Architecture Blueprint](#)** — currently a working draft, intended to evolve with the team.
+
+---
+
+## The First 100 Days
+
+Weeks 1–4: listening — engineering leadership, key customers, current product roadmap, Blueprint review.
+
+Weeks 5–8: audit findings shared. The three Efficiency Engine pillars validated against what the team is already pushing; the Innovation Engine roadmap pressure-tested with engineering leadership.
+
+Weeks 9–12: first calibrated commitments. KPI baselines set, Visual OS Foundation MVP scoped, modernization sequence agreed — all in writing, all owned by the team.
+
+The two engines start running on day 101 — Efficiency in ongoing operation, Innovation moving from blueprint to build.
