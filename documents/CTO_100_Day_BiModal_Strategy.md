@@ -57,22 +57,20 @@ The AI-native shift moved the bottleneck from writing code to judgment, decompos
 
 ---
 
-## The Innovation Engine — Architecting the AI-native future
+## The Innovation Engine — Define the Future
 
-Not a separate product line. The layer that turns Nx Meta's install base into infrastructure for the autonomous era — existing customers get an upgrade path, the platform gets a defensible position.
+If the Efficiency Engine strengthens what Network Optix is, the Innovation Engine defines what it becomes. The thesis: **video monitoring is becoming governance infrastructure for autonomous physical operations.**
 
-- **World model layer.** Probabilistic beliefs about spaces (security, operational, safety) with confidence, coverage, and staleness as first-class properties.
-- **Coding Engine (template-based, Phase 1).** Operators express governance intent in natural language; the system compiles it into permission-gated entity operations. Free-form NL deferred to Phase 2.
-- **Context API.** Robots, BMS, and access systems consume situational awareness from Nx — the move that positions us as infrastructure, not a viewer.
+Nx EVOS already positions Network Optix as an operating system for video and visual AI — with a Rules Engine, AI Manager, and a developer ecosystem of plugins and integrations. The next step is architectural: moving from event-driven rules and developer-built plugins to a system where operators express governance intent in natural language, the platform maintains a unified world model with uncertainty as a first-class citizen, and autonomous agents consume situational awareness directly through a stable Context API. Robotic warehouses, autonomous delivery, and AI-managed retail need this layer — not just a richer plugin marketplace.
 
-KPI: MVP delivering the five wow moments, then phased Context API integrations with real agent partners.
+That system is Visual OS — the next layer of Nx EVOS, not a replacement. Three architectural commitments anchor it:
 
-## The economic argument
+- **A world model at the center, not cameras.** Cameras and sensors become observers; the system's central data structure is a continuously updated model of physical reality, with confidence scores, staleness timestamps, and source attribution as first-class citizens. Multiple purpose-built models (security, operational, safety, compliance) interpret the same scene from different governance perspectives.
 
-The Efficiency Engine's automation gains free capacity. That capacity funds the Innovation Engine's R&D. The Innovation Engine's success deepens the moat around the Efficiency Engine's customers. The two engines feed each other rather than compete for budget — and if the Efficiency Engine doesn't deliver the savings on schedule, the Innovation Engine phases down accordingly. The plan adapts to reality, not the other way around.
+- **A coding engine for operators, not developers.** Operators express governance intent — "no forklifts in the pedestrian aisle during shift change" — and the system translates it into validated operations on domain entities (zones, streams, policies, pipelines). The same shift Claude Code made for software development, applied to physical operations: programming reality in domain terms, not Python.
 
-## Risks I'd watch
+- **A context API for autonomous agents, not just humans.** The platform's primary consumers are increasingly machines — robots, building management systems, access control, compliance pipelines. Visual OS serves situational awareness as infrastructure: a stable interface that other systems depend on, designed from day one as a platform, not an application.
 
-- Efficiency Engine savings may not materialize fast enough → phase Innovation Engine investment to actual freed capacity, not projected.
-- Coding Engine depends on LLM accuracy on a constrained template library → ship the guided-wizard fallback alongside the NL path from day one.
-- Existing engineering leadership may have a different read on priorities → first 30 days are listening; any plan published after week 4 is co-authored.
+The roadmap is structured in five phases — from a Foundation MVP that proves the architecture (4 months) through Intelligence, Platform, Autonomous Governance, and a long-horizon Digital Twin. The MVP is anchored by five capabilities no current video monitoring system can match: the system models its own uncertainty, operators program reality through domain entities, multiple world models interpret the same scene from different lenses, autonomous agents consume situational awareness through a stable API, and the system degrades transparently across edge, facility, and cloud tiers.
+
+> **The full architecture, entity model, MVP definition, and phase-by-phase roadmap are documented in the [Visual OS Architecture Blueprint](#).** This section summarizes the strategic thesis; the Blueprint contains the technical design, competitive positioning, and resourcing dependencies for readers who want the full picture.
