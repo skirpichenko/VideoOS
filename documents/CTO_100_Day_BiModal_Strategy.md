@@ -25,7 +25,9 @@ The AI-native shift moved the bottleneck from writing code to judgment, decompos
 
 - **Spec-driven development.** Specs before each feature, shared context across the codebase — both written, versioned, and maintained like code. Planning gets more weight; the work moves faster because the questions got answered upstream.
 
-- **Modernization that unblocks shipping.** Angular, ECS→EKS, AMS→GCP, frontend tooling, cloud architecture — pursued where they unblock the team, cut spend, or retire release debt. AI agents handle what they do well: large refactors, migrations, brownfield documentation.
+- **New cost structure.** Migrations and refactors that were once multi-year taxes are now feasible (Python→C++, ECS→EKS, AMS→GCP). AI handles the heavy lifting using existing tests as the safety net.
+
+- **Value-led Roadmaps.** Move prioritization from man-hours to strategic clarity and product integrity. We ship what is worth doing: prioritizing the user experience and features that teach the customer how to evolve alongside our platform.
 
 > **KPI:** **Spec-to-Code Lead Time** — Time from finalized specification to first pull request.
 
