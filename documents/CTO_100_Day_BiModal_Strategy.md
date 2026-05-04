@@ -30,7 +30,7 @@ The AI-native shift moved the bottleneck from writing code to judgment, decompos
 > **KPI:** **Spec-to-Code Lead Time** — Time from finalized specification to first pull request.
 
 ### 2. Reliability: Trust at Pace
-*Building "release confidence" directly into the engineering culture.*
+*Shipping at speed without losing control of what gets shipped.*
 
 - **Verification in the default flow.** Automated review, test generation, and security scanning built into the path to production — not bolted on after. Fast, predictable releases the team can trust.
 
@@ -38,10 +38,12 @@ The AI-native shift moved the bottleneck from writing code to judgment, decompos
 
 - **Multi-agent workflows, gradually and on merit.** Experiments and prototypes today; broader rollout only where evidence supports it. Each pattern earns its way into production by proving it increases output without increasing noise.
 
+> **KPI:** **Change Failure Rate paired with Deployment Frequency** — Tracked together so velocity gains aren't bought with reliability loss.
+
 ### 3. Governance: The Guardrails of Growth
 *Managing the human and security side of the AI-native shift.*
 
-- **AI tooling governance.** Fast enough to keep up, structured enough to keep teams from diverging. Selection weighed across usefulness, compliance, and risk — code leakage, data exposure, vendor stability.
+- **AI tooling governance.** Fast enough to keep up, structured enough to keep teams from diverging onto different stacks. Selection weighed across usefulness, compliance, and risk — code leakage, data exposure, vendor stability.
 
 - **Roles that follow the leverage.** The high-value work shifts toward specs, context, review, and judgment. Where individual responsibilities and team boundaries want to follow that shift is something the audit will surface and the team will shape — not a reorg announced from above.
 
