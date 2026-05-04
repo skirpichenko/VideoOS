@@ -25,11 +25,11 @@ The AI-native shift moved the bottleneck from writing code to judgment, decompos
 
 - **Spec-driven development.** Specs before each feature, shared context across the codebase — both written, versioned, and maintained like code. Planning gets more weight; the work moves faster because the questions got answered upstream.
 
-- **New cost structure.** Migrations and refactors that were once multi-year taxes are now feasible (Python→C++, ECS→EKS, AMS→GCP). AI handles the heavy lifting using existing tests as the safety net.
+- **New cost structure.** Migrations and refactors that were once multi-year commitments are now tractable (ECS→EKS, AMS→GCP, Angular→React, Python→Rust). AI handles the heavy lifting using existing tests as the safety net.
 
-- **Value-led Roadmaps.** Move prioritization from man-hours to strategic clarity and product integrity. We ship what is worth doing: prioritizing the user experience and features that teach the customer how to evolve alongside our platform.
+- **Value-led prioritization.** With effort no longer the dominant constraint, prioritization moves from "what can we afford to ship" to "what's worth doing." Estimates shift from man-hours to trust, test coverage, and clarity of intent.
 
-> **KPI:** **Spec-to-Code Lead Time** — Time from finalized specification to first pull request.
+> **KPI candidates:** spec-to-code lead time, modernization throughput, feature pipeline velocity.
 
 ### 2. Reliability
 *Trust at Pace: in the AI era, alignment is a survival condition.*
@@ -40,16 +40,18 @@ The AI-native shift moved the bottleneck from writing code to judgment, decompos
 
 - **Multi-agent workflows, gradually and on merit.** Experiments and prototypes today; broader rollout only where evidence supports it. Each pattern earns its way into production by proving it increases output without increasing noise.
 
-> **KPI:** **Change Failure Rate paired with Deployment Frequency** — Tracked together so velocity gains aren't bought with reliability loss.
+> **KPI candidates:** change failure rate, deployment frequency, regression incidents per release.
 
 ### 3. Adaptability
-*Built to evolve: The stack is temporary. The team is the asset.*
+*Built to Evolve: the stack is temporary, the team is the asset.*
 
 - **AI tooling governance.** Fast enough to keep up, structured enough to keep teams from diverging onto different stacks. Selection weighed across usefulness, compliance, and risk — code leakage, data exposure, vendor stability.
 
 - **Roles that follow the leverage.** The high-value work shifts toward specs, context, review, and judgment. Where individual responsibilities and team boundaries want to follow that shift is something the audit will surface and the team will shape — not a reorg announced from above.
 
-> **KPI:** **Tooling Coherence** — Percentage of AI-assisted work happening on the sanctioned stack; time from new-tool request to evaluated decision.
+- **Codified workflows.** Anything the team does more than twice a week becomes a slash command, a skill, or a checked-in template. Institutional knowledge captured in the repo, not trapped in individual chat histories — so the team's edge survives every tool and model change.
+
+> **KPI candidates:** tooling coherence, time-to-evaluate new tools, role-shift indicators.
 
 ## The Innovation Engine — Architecting the AI-native future
 
