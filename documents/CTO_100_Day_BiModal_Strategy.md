@@ -20,23 +20,23 @@ The priority is the existing product, the existing customers, and the team that 
 
 The AI-native shift moved the bottleneck from writing code to judgment, decomposition, and review — where good engineering discipline compounds into extreme leverage and bad discipline compounds into lost control and escalating risk. The work below is where I'd expect that discipline to show up:
 
-- **Release confidence.** Cut friction wherever regression cycles, flaky CI, or legacy test suites slow the team. Verification — automated review, test generation, security scanning — built into the path to production, not bolted on after. Targets set after audit, not promised on day one.
+- **Release confidence.** Verification built into the path to production — automated review, test generation, security scanning all part of the default flow. Fast, predictable releases the team can trust.
 
-- **Modernization that pays back.** ECS→EKS, Angular, legacy support — pursued where they unblock the team, not as modernization for its own sake. AI agents earn their keep on the work they're genuinely good at: large refactors, migrations, brownfield documentation. On the work where they aren't yet, we don't pretend.
+- **Modernization that pays back.** Angular, ECS→EKS, AMS→GCP, frontend tooling, cloud architecture, performance and cost optimization — pursued where they unblock the team, cut spend, or retire release debt. AI agents handle what they do well: large refactors, migrations, brownfield documentation.
 
-- **Spec-driven development as the default.** Specs become first-class artifacts — versioned alongside code, reviewed like code, the source of truth that survives past any single chat session. The planning phase gets more weight, not less; implementation gets faster because the ambiguity was killed upstream.
+- **Spec-driven development.** Specs and shared context as first-class artifacts — written, versioned, and maintained like code. Planning gets more weight; the work moves faster because the questions got answered upstream.
 
-- **Context engineering as an engineering discipline.** Hand-curated repo-level context files, scoped per task, maintained like any other critical asset. Internal documentation, architectural decisions, and conventions made legible to both humans and agents. Context quality treated as a leading indicator of output quality.
+- **Quality gates that AI passes through.** Tighter standards used to be expensive to enforce; AI coding and auto-check tools make them cheap to maintain. Plan-then-approve before code is written. Automated review, type-checking, security scanning, and human sign-off on the diff — the same standard regardless of who or what produced the code.
 
-- **Multi-agent workflows where parallelism actually pays.** Planner, implementer, reviewer, and quality agents running in parallel on isolated branches for the work that suits it — large refactors, migrations, broad test coverage. Single-threaded human-in-the-loop kept for the work that needs taste and judgment.
+- **Quality gates that AI passes through.** Plan-then-approve before code is written. Automated review, type-checking, security scanning, and human sign-off on the diff — the same standard regardless of who or what produced the code.
 
-- **Quality gates that AI must pass through.** No direct-to-main from agents. Plan-then-approve before code is written, not after. Automated review, type-checking, security scanning, and human sign-off on the diff — the same standard regardless of who or what produced the code.
+- **Multi-agent workflows where parallelism pays.** Planner, implementer, reviewer, and quality agents running in parallel on isolated branches for the work that suits it — large refactors, migrations, broad test coverage. Human-in-the-loop kept for the work that needs taste and judgment.
 
-- **Codified workflows over repeated prompting.** Anything the team does more than twice a week becomes a slash command, a skill, or a checked-in template. Institutional knowledge captured in the repo, not trapped in individual chat histories.
+- **Codified workflows over repeated prompting.** Anything the team does more than twice a week becomes a slash command, a skill, or a checked-in template. Institutional knowledge captured in the repo and shared across the team.
 
-- **Internal AI tooling chosen by what hurts.** Synthetic load testing, vulnerability scanning, test generation, on-call triage — picked by the team, scoped against real bottlenecks, retired when they stop earning their keep.
+- **Internal AI tooling chosen by what helps most.** Synthetic load testing, vulnerability scanning, test generation, on-call triage — picked by the team, scoped to where they create the most leverage, kept as long as they earn their keep.
 
-KPI: hours given back, release confidence, time from spec to production — measured, not asserted.
+- **Roles that follow the leverage.** The high-value work shifts toward specs, context, review, and judgment. Where individual responsibilities and team boundaries want to follow that shift is something the audit will surface and the team will shape — not a reorg announced from above.
 
 ---
 
